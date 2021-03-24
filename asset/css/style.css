@@ -32,6 +32,13 @@ border-radius: 8px;
 
 }
 
+.big_btn{
+    height: 60px;
+    border-radius: 8px;
+    padding: 20px 10px;
+    display: inline-block;
+}
+
 .btn_out{
     border: 2px solid white;
     background-color: rgba(0, 0, 0, 0);
@@ -67,8 +74,13 @@ Header Syle
 header{
     height: 500px;
     font-size: 12px;
+    background-image: url(../img/background-header.png);
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: 113% 116%;
 }
 
+/* Nav bar Style */
 nav{
     height: 70px;
     line-height: 70px;
@@ -103,9 +115,23 @@ ul > li{
     
 }
 
-ul > li > a, ul>li>button>a{
+ul > li > a, ul>li>button>a, .jumbotron button>a{
     text-decoration: none;
     color: white;
     text-transform: uppercase;
     font-size: 12px;
+}
+/* Nav bar Style */
+
+/* jumbotron style */
+
+.jumbotron{
+    width: 50%;
+    position: absolute;
+    top: 40%;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 25px;
 }
