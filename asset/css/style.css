@@ -9,7 +9,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-p{
+p, hr{
     color: rgba(128, 128, 128, 1);
 }
 
@@ -177,3 +177,22 @@ Main style
     color: rgba(128, 128, 128, 1);
     
 }
+
+/* low section style */
+.l_side, .r_side{
+    height: 500px;
+    width: 45%;
+    padding: 50px 25px;
+}
+
+.r_side>h2{
+    font-size: 30px;
+    line-height: 45px;
+    margin-bottom: 10px;
+}
+
+.r_side>p{
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
