@@ -9,6 +9,12 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+p{
+    color: rgba(128, 128, 128, 1);
+}
+
+
+
 
 /* Utility class style */
 .clearfix{
@@ -134,4 +140,13 @@ h1{
     color: white;
     font-size: 50px;
     margin-bottom: 25px;
+}
+
+/*****
+Main style
+*****/
+
+.top_section{
+    text-align: center;
+    padding: 25px 0;
 }
