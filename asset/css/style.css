@@ -196,3 +196,16 @@ Main style
     margin-bottom: 50px;
 }
 
+/*****
+footer style 
+******/
+
+footer{
+    height: 150px;
+    line-height: 150px;
+    vertical-align: middle;
+}
+
+footer>h2{
+    font-size: 30px;
+}
