@@ -16,6 +16,7 @@ p{
 
 
 
+
 /* Utility class style */
 .clearfix{
     content: "";
@@ -84,6 +85,7 @@ header{
     background-size: 1000px;
     background-repeat: no-repeat;
     background-position: 113% 116%;
+    position: relative;
 }
 
 /* Nav bar Style */
@@ -145,8 +147,33 @@ h1{
 /*****
 Main style
 *****/
-
+/* top section style */
 .top_section{
     text-align: center;
     padding: 25px 0;
+}
+
+/* mid section style */
+.col{
+    height: 500px;
+    width: 30%;
+    margin-right: 3%;
+    text-align: center;
+    padding: 20px 5px;
+}
+
+.col>img{
+    height: 33%;
+}
+
+.col > h2{
+    margin: 20px 0;
+    color: rgba(124, 187, 2, 1);
+}
+
+.col>h2::after{
+    content: "_____" ;
+    display: block;
+    color: rgba(128, 128, 128, 1);
+    
 }
